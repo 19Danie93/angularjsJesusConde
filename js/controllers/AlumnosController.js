@@ -8,4 +8,13 @@ function AlumnosController($scope) {
         {nombre:"Pepe Cachito",telefono: "3667689", curso:"Tercero ESO"},
         {nombre:"Juan Zorro",telefono: "567893345", curso:"Cuarto ESO"},
     ];
+
+    $scope.Save = function() {
+        $scope.alumnos.push({
+            nombre:$scope.nuevoAlumno.nombre,
+            telefono:$scope.nuevoAlumno.telefono,
+            curso:$scope.nuevoAlumno.curso
+        })
+    }
 }
+
