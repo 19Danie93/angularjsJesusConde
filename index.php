@@ -18,6 +18,7 @@
         <ul>
             <li><a href="tuto1.php">tuto 1</a></li>
             <li><a href="tuto2.php">tuto 2</a></li>
+            <li><a href="tuto4.php">tuto 4</a></li>
 
         </ul>
         <script src="js/angular.min.js" type="text/javascript"></script>
